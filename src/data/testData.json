@@ -1,0 +1,11 @@
+{
+    "testData1":[
+        {"type":"ValidPersonalData","email":"x000x@xyz.com","gender":"Male","firstName":"Tester","lastName":"Testing","password":"12345","address":"Webworld","city":"city","state":"6","zip":"11111","mobile":"1234567890"}
+    ],
+    "testData":[
+        {"type":"invalidEmail","email":"abc","firstName":"abc"},
+        {"type":"existingEmail","email":"abc@abc.com","firstName":"abc"},
+        {"type":"invalidPersonalData","email":"x001@xyz.com","firstName":"Dummy"},
+        {"type":"ValidPersonalData","email":"x001@xyz.com","gender":"Male","firstName":"Tester","lastName":"Testing","password":"12345","address":"Webworld","city":"city","state":"7","zip":"11111","mobile":"1234567890"}
+    ]
+}
